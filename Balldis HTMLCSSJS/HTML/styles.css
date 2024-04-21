@@ -1,0 +1,201 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  margin: 1;
+  padding: 1;
+  background-color: rgb(240, 220, 230);
+}
+
+.container {
+  max-width: 399px;
+  margin: 99px auto;
+  padding: 32px;
+  border: 2px solid #f0e9e9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0400ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.register-link {
+  margin-top: 20px;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+ .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Espacio entre filas */
+  
+}
+
+.circle {
+  width: 200px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(231, 222, 222);
+  font-weight: bold;
+}
+
+.red {
+  background-color: #FF0000;
+}
+
+.blue {
+  background-color: #0000FF;
+}
+
+.green {
+  background-color: #00FF00;
+}
+
+.yellow {
+  background-color: #c26d1f;
+}
+
+.cyan {
+  background-color: #110235;
+}
+
+.magenta {
+  background-color: #FF00FF;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 230, 230);
+
+}
+
+.game-container {
+  width: 600px;
+  height: 500px;
+  margin: 50px auto;
+  position: relative;
+  
+}
+
+.pinball-table {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#score {
+  position: absolute;
+  top: 20px; /* Para cambiar la distancia desde la parte superior */
+  right: 20px; /* Para cambiar la distancia desde el lado derecho */
+  background-color: rgb(48, 204, 9);
+  color: rgb(231, 218, 218);
+  padding: 10px;
+  border-radius: 5px;
+}
+.ball {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(5, 35, 90);
+  border-radius: 60%;
+}
+
+.paddle {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-30%);
+  width: 100px;
+  height: 20px;
+  background-color: rgb(211, 214, 9);
+}
+
+.red-strip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgb(255, 0, 0);
+}
+/* Estilos para la barra superior */
+.top-bar {
+  position: absolute;
+  left:0;
+  width: 90%;
+  height: 30px;
+  background-color: #007bff48; /* Color de fondo de la barra */
+  padding: 19px; /* Espaciado interno para el contenido dentro de la barra */
+}
+
+/* Estilos para el logo */
+.top-bar img {
+  max-width: 50%; /* Ancho máximo del logo */
+  display: block; /* Esto asegura que el logo se comporte como un bloque */
+  margin: 10 auto; /* Esto centra el logo horizontalmente */
+  height: auto; /* Altura automática para mantener la proporción del logo */
+
+  /* final */
+
+  .score-box {
+    width: 5cm;
+    height: 5cm;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .score-box .cell {
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border: 1px solid white;
+  }
